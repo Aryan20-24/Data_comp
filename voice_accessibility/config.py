@@ -1,10 +1,8 @@
-"""
 config.py
 ---------
 All user-configurable variables for the voice accessibility module.
 These variables are placeholders — they will be set by the UI layer
 or by the RAG pipeline code before calling process_input / process_output.
-"""
 
 import os
 from dotenv import load_dotenv
@@ -27,8 +25,8 @@ SARVAM_TTS_URL = "https://api.sarvam.ai/text-to-speech"
 # ---------------------------------------------------------------------------
 # Sarvam Model Versions
 # ---------------------------------------------------------------------------
-SARVAM_STT_MODEL = "saaras:v2"
-SARVAM_TTS_MODEL = "bulbul:v2"
+SARVAM_STT_MODEL = "saaras:v3"
+SARVAM_TTS_MODEL = "bulbul:v3"
 
 # ---------------------------------------------------------------------------
 # User-Configurable Variables (set by UI before calling processors)
